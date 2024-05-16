@@ -1,0 +1,76 @@
+
+.flightbookingdiv{ background: #fff; padding: 15px; border-radius: 10px;
+    // .leftrightpanel
+    .leftrightpanel{display: flex; justify-content: space-between; margin-top: 15px;}
+
+    // .filterside
+    .filterside{width: 25%; border: 1px solid $color5;}
+    .filterheading{display: flex; justify-content: space-between; align-items: center; background: $color2; color: $color1; padding: 10px; border-radius: 5px 5px 0 0;
+        a{color: $color1;}
+    }
+    
+    .refresh{padding: 10px; background: $color5; 
+        i{font-size: 18px; vertical-align: middle; margin-right: 5px;}
+    }
+
+    // .inputgroup
+    .inputgroup{padding: 10px;
+        input{border: 1px solid $color5; width: 100%;
+            &:focus{border: 1px solid $color4;box-shadow: 0px 1px 1px 2px rgba(1,47,93,0.5);}
+        }
+        input[type="checkbox"]{width: auto;}
+        small{font-size: 10px; margin: 0; padding: 0;}
+    }
+    .filterbtn{background: $color4; color: $color1; padding: 5px; text-align: center; width: 100%;
+        &:hover{background: $color3; transition: all 0.3s ease-in-out;}
+    }
+    .morebtn{text-align: right;
+        span{color: $color4; cursor: pointer;}
+        .minus{display: none;}
+    }
+    .toggeldiv{display: none;}
+    
+
+    // .topheading
+    .topheading{font-size: 20px;  font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px;}
+
+    // .rigthside
+    .rigthside{width: 70%;
+
+        // .rightcard
+        .rightcard{box-shadow: 2px 2px 5px #c1c1c1; border: 1px solid $color6; padding: 10px; margin-bottom: 30px;
+            &:hover{border: 1px solid $color2;}
+        }
+
+        // .cardlist
+        .cardlist{display: flex; justify-content: space-between; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid $color6;
+            &:last-child{margin-bottom: 0; padding-bottom: 0; border-bottom: 0;}
+        }
+        .midlist{text-align: center;
+            a{text-decoration: underline; color: $color4;}
+        }
+        span, a, small{display: inline-block;}        
+        .title{font-weight: 400;}
+        .heading{font-size: 15px; color:$color2; font-weight: 500;
+            &.green{color: green;}
+            &.hold{color: #c81010;}
+            &.orange{color: $color4;}
+            
+        }
+        small{font-size: 12px;}
+
+        .cmmonbtns{background: $color4; color: $color1; padding: 5px 10px; border-radius: 5px;
+            &:hover{background: $color3;}
+        }
+
+        // table
+        table{width: 100%; border: 1px solid $color6; margin-bottom: 10px;}
+        tr{
+            &:hover{background: $color5;}
+        }
+        th,td{font-size: 14px; text-align: center; padding: 10px; border-right: 1px solid $color6; border-bottom: 1px solid $color6;}        
+        th{ background: $color5;}
+
+    }
+}
+

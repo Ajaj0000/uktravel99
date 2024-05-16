@@ -1,0 +1,38 @@
+
+.mainSection{background: #f0f3f7; padding: 20px 0; position: relative;}
+
+// .topsearch
+.topsearch{display: flex; justify-content: space-between; padding: 10px; align-items: center; background: #fff; margin-bottom: 20px;
+    .search_in{width: 40%; border-bottom: 1px solid $color2; display: flex; align-items: center;}
+    input{font-size: 14px;padding-bottom: 6px;font-weight: 500;padding-left: 15px; width: 100%; overflow: hidden;
+        &::placeholder{color: $color2;}
+    }
+    .back_button{background: $color4; color: #ffff; padding: 7px 10px;}
+}
+
+// .credit-limit
+.credit-limit{display: flex; justify-content: space-between;
+    li{padding: 20px 15px;background: #ffffff;width: 24%;display: flex;border-radius: 2px;justify-content: space-between;align-items: center;box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);margin-bottom: 20px;}
+    
+    span{display: block;font-size: 15px;padding-bottom: 5px; color: $color2;}
+    label{font-size: 16px;font-weight: 800; color: $color4;}
+}
+
+
+// .booking-listing
+.booking-listing {display: flex;justify-content: space-between;flex-wrap: wrap;margin-top: 30px;}
+// .booking_info
+.booking_info {display: flex;background: #ffffff;color: #000;width: 32%;border-radius: 5px;margin-bottom: 18px;
+   span {background: $color2;color: #ffffff;height: 96px;width: 100px;display: flex;align-items: center;justify-content: center;border-radius: 5px 0 0 5px;
+        &.color1 {background: #643296;}
+        &.color2 {background: #216e6b;}
+        &.color3 {background: $color4;}
+        & i {display: inline-block;font-size: 35px;}
+        & i.ro {transform: rotate(319deg);}
+    }   
+.right {width: 70%;padding: 20px 20px 16px;}
+   p {font-size: 14px;}
+   p i {margin-right: 3px;}
+   a {display: inline-block;font-size: 20px;color: #000;margin-top: 7px;}
+
+}

@@ -1,0 +1,29 @@
+
+.markupdiv{background: #fff; padding: 10px; max-width: 700px; margin: 0 auto;}
+
+.markupdiv .topheading{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.markupdiv .inputbox{
+    padding: 10px 30px;
+    position: relative;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 15px;
+}
+.markupdiv .divflex{
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.markupdiv .divflex label {
+    display: block;
+    color: #000;
+    margin-bottom: 2px;
+}
+.markupdiv .divflex input {
+    border: 1px solid #ddd;
+    padding-left: 5px;
+    width: 100%;
+}

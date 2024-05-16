@@ -1,0 +1,8 @@
+// .pagesbanner
+.pagesbanner{ position: relative;
+    figure{line-height: 0; 
+        img{width: 100%; height: 300px;}
+    }
+    .container{position: absolute; left: 0; right: 0;  bottom: 100px;}
+    .pagesHeading{font-size: 40px;font-weight: 600;margin: 0;padding: 0;text-align: left;color:$color1;}    
+}

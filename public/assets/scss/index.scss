@@ -1,0 +1,20 @@
+
+// @global;
+@import 'global/_variables'; 
+@import 'global/swiper-bundle.min'; 
+
+ 
+
+// modules
+@import 'modules/_banner';
+@import 'modules/_bannerloginbox';
+@import 'modules/_featurecard';
+@import 'modules/_commontext';
+@import 'modules/_aboutsection';
+@import 'modules/_contactsection';
+
+
+
+
+select{cursor: pointer;}
+

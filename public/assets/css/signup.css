@@ -1,0 +1,156 @@
+.signupmain {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.signupmain .toptext {
+    padding: 20px 0;
+}
+
+.signupmain .toptext .heading {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #012533;
+    text-align: center;
+}
+
+.signupmain .toptext p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 10px;
+    color: #012533;
+}
+
+.signupmain .leftHeading {
+    font-size: 22px;
+    color: #012533;
+    width: fit-content;
+    text-transform: uppercase;
+    border-bottom: 3px solid #012533;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.signupmain .inputbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signupmain .inputbox.trems label {
+    color: #017dff;
+    cursor: pointer;
+}
+
+.signupmain .inputbox label {
+    width: 30%;
+}
+
+.signupmain .inputbox label span {
+    color: red;
+}
+
+.signupmain input[type="text"],
+select {
+    width: 70%;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 7px 15px;
+}
+
+.signupmain select {
+    appearance: auto;
+}
+
+.signupmain input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.signupmain .filebox {
+    position: relative;
+    width: 100%;
+}
+
+.signupmain input[type="file"] {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 38%;
+}
+
+.signupmain .uploadfile {
+    background: #fff;
+    border: 1px solid #012533;
+    color: #012533;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.signupmain .uploadfile:hover {
+    background: #eee;
+    transition: all 0.3s ease-in-out;
+}
+
+.signupmain .flexbox {
+    display: flex;
+    width: 100%;
+}
+
+.signupmain .flexbox .left {
+    margin-right: 15px;
+}
+
+.signupmain .scrolldiv {
+    border: 1px solid #ddd;
+    padding: 15px;
+    max-height: 150px;
+    overflow-y: scroll;
+    margin: 20px 0;
+}
+
+.signupmain .scrolldiv span {
+    color: #666666de;
+    text-align: right;
+    display: block;
+}
+
+.signupmain .scrolldiv .title {
+    color: #012533;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.signupmain .scrolldiv p {
+    color: #012533;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.signupmain .sbmtbtn {
+    background: #0f4988;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 3px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-right: 0;
+    border: 1px solid transparent;
+}
+
+.signupmain .sbmtbtn:hover {
+    background: #fff;
+    border: 1px solid #0f4988;
+    color: #0f4988;
+    transition: all 0.3s ease;
+}

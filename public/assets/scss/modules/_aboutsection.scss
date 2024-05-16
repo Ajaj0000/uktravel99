@@ -1,0 +1,16 @@
+.aboutsection{margin-bottom: 50px;
+    .container{display: flex; justify-content: space-between; align-items: center;}
+    .leftsection{width: 58%;}
+    .rightsection{width: 38%;}
+    .readbtn{background: $color2; color: $color1; padding: 8px 15px; border-radius: 5px; display: block; width: max-content; text-transform: uppercase;}
+
+    // .cardbox
+    .cardbox{display: flex; justify-content: space-between; flex-wrap: wrap; text-align: right;}
+    .leftbox, .rightbox{width: 48%;}
+    .rightbox{margin-top: -25px;}
+    .cards{background-color: $color4; color: $color1; width: 100%; margin-bottom: 20px; padding: 15px; border-radius: 10px;
+        &:first-child{margin-top: 20px;}
+    }
+    .card1{background: $color3;}
+    .cardheading{text-align: left; font-size: 31px; line-height: 35px; font-weight: 300;}
+}

@@ -1,0 +1,9 @@
+.newsbox{background: #fff; padding: 10px;
+    .heading{font-size: 24px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid $color2;}
+
+    .innerbox{border: 1px solid $color6;}
+
+    .title{display: flex; justify-content: space-between; padding: 10px; background: $color6; color: #000;}
+    span{font-size: 15px;}
+    article{padding: 10px; text-align: justify;}
+}

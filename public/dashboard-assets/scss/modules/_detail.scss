@@ -1,0 +1,44 @@
+// .maindetaildiv
+.maindetaildiv{background: $color1; padding: 10px; border-radius: 10px;
+    .detailtopbox{display: flex; justify-content: space-between; align-items: flex-end;margin-bottom: 10px;padding-bottom: 10px; border-bottom: 1px solid $color6;
+        span, small, label{display: inline-block;}
+        span{font-weight: 500;}
+        small{font-size: 12px;}
+        strong{font-size: 24px; font-weight: 300;}
+        label{background: $color4; color: $color1; padding: 5px 10px;}
+        .midbox{text-align: center;}
+        a{text-decoration: underline; color: $color4;}
+    }
+    a{color: $color4;}
+}
+
+// .innerdetaildiv
+.innerdetaildiv{display: flex; justify-content: space-between;
+    .heading{background: $color2; color: $color1; padding: 5px 10px; margin-bottom: 10px; border-radius: 5px;}
+    .headingflex{display: flex; justify-content: space-between; background: $color6; color: $color2; border-radius: 0; padding:10px;}
+}
+
+// .detailleftdiv
+.detailleftdiv{width: 68%; padding: 10px; border: 1px solid $color6;
+    table{width: 100%; text-align: left; border: 1px solid $color6; margin-bottom: 10px;}
+    th, td{border-right: 1px solid $color6; padding: 7px; background: #eee; border-bottom: 1px solid $color6; font-weight: 300;}
+    th{font-weight: 500;}
+
+    // .scrolldiv
+    .scrolldiv{margin: 20px 0;}
+    // .innerscrolldiv
+    .innerscrolldiv{max-height:300px; min-height: 100px; overflow-y: auto; background-color: #eee; padding: 10px;
+        span{display: block;}
+    }
+
+    .ssrdiv{display: none;}
+
+}
+
+// .detailrightdiv
+.detailrightdiv{width: 28%;
+    .sumrfullyrow{border: 1px solid $color6;}
+    .sumryrow{display: flex; justify-content: space-between; padding: 5px 8px;}
+    .rowbg{background: #eee;}
+    .headingflex{background: $color2; color: $color1;}
+}

@@ -1,0 +1,19 @@
+.contactsection{background: url(../images/home/contactsection.jpg) no-repeat left; padding: 35px 0;
+    .container{display: flex; align-items: center; justify-content: space-between;}
+    .left{width: 30%; background: rgba(15, 73, 136, 0.75); padding: 30px; color: $color1; border-radius: 5px;
+        a{display: flex; color: $color1; align-items: center; margin-bottom: 10px;}
+        img{margin-right: 10px;}
+    }
+    .title{font-size: 19px; font-weight: 600; margin-bottom: 15px;padding-bottom: 10px; border-bottom: 1px solid $color1; color: $color1;}
+    span{display: block; line-height: 20px;}
+
+    .right{width: 50%;}
+
+    .inputbox{display: flex; flex-wrap: wrap; justify-content: space-between;} 
+    input, textarea{padding: 10px;border: 2px solid $color6; background: $color5; border-radius: 5px; width: 48%; margin-bottom: 10px;}
+    .fullwidth{width: 100%;}
+    .flexdiv{display: flex; width: 100%; justify-content: space-between;
+        textarea{width: 80%; margin-bottom: 0;}
+    }
+    .sbmtbtn{background: $color2; color: $color1; text-transform: uppercase; font-size: 15px; width: 18%; border-radius: 5px;}
+}

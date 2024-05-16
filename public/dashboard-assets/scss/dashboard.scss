@@ -1,0 +1,30 @@
+
+@import 'global/_mixin';
+@import 'global/reset' ;
+@import 'global/_variables'; 
+@import 'global/swiper-bundle.min'; 
+
+ 
+
+@import 'common/_header';
+@import 'common/_footer';
+@import 'common/_menubar';
+ 
+
+// modules
+@import 'modules/_dasboardmain';
+@import 'modules/_searchpage';
+@import 'modules/_flightbooking';
+@import 'modules/_hotelbooking';
+@import 'modules/_detail';
+@import 'modules/_newsbox';
+
+
+
+
+select{cursor: pointer;}
+
+
+.pagination{display: flex; justify-content: flex-end; 
+    a{display: inline-block; font-size: 14px; color: $color4; padding: 0 3px;}
+}

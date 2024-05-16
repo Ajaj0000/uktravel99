@@ -1,0 +1,11 @@
+.featurecard{margin-bottom: 50px;
+    ul{display: flex; justify-content: space-between;}
+    li{display: flex; align-items: center; padding: 20px 30px; background: $color1;box-shadow: 0px 17px 21px 0px rgba(0, 0, 0, 0.19);}
+    .text{padding-left: 15px;}
+    .heading, .title{font-size: 27px; font-weight: 600; color: $color2; line-height: 30px;}
+    .title{font-weight: 300;}
+
+    .active{background: $color2; color: $color1;
+        .heading, .title{color: $color1;}
+    }
+}
