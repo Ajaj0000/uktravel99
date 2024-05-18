@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 
 function Hotelsearch() {
@@ -12,10 +13,10 @@ function Hotelsearch() {
             <i className="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
           </div>
-          <a className="back_button">
-            {" "}
-            <i className="fa fa-backward"></i> Back{" "}
-          </a>
+          <Link className="back_button">
+            
+            <i className="fa fa-backward"></i> Back
+          </Link>
         </div>
 
         <div className="swiper flightSwiper">
@@ -36,10 +37,10 @@ function Hotelsearch() {
             <ul className="searchtabs">
               <li className="">
                 {" "}
-                <a className="" data-tabs="Flight">
+                <Link className="" data-tabs="Flight">
                   {" "}
                   <i className="fa fa-duotone fa-plane-departure"></i> Hotel SEARCH{" "}
-                </a>{" "}
+                </Link>{" "}
               </li>
             </ul>
 
@@ -55,9 +56,9 @@ function Hotelsearch() {
               </div>
 
               <div className="checkindiv">
-                <a className="changeairport">
+                <Link className="changeairport">
                   <i className="fa-solid fa-right-left"></i>
-                </a>
+                </Link>
 
                 <label>Nationality</label>
                 <input

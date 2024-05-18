@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../Commen-Component/Header";
 import { Footer } from "../Commen-Component/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -98,7 +99,7 @@ function Home() {
               Duis finibus feugiat dolor, et convallis libero commodo a. Orci
               varius natoque penatibus et magnis disparturient..
             </p>
-            <a class="readbtn">Read more</a>
+            <Link>Read more</Link>
           </article>
           <div class="rightsection">
             <article class="commontext">
@@ -146,17 +147,17 @@ function Home() {
         <div class="container">
           <div class="left">
             <div class="title">Feel free to contact us</div>
-            <a>
+            <Link>
               <img src="assets/images/common/email.png" alt="" />
               <p>
                 <span>info@uktraveltourism.com </span>
                 <span>support@uktraveltourism.com</span>
               </p>
-            </a>
-            <a>
+            </Link>
+            <Link>
               <img src="assets/images/common/call.png" alt="" />
               <span>+01 2345 6789</span>
-            </a>
+            </Link>
           </div>
           <div class="right">
             <article class="commontext">

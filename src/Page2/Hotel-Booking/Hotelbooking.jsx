@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 function Hotelbooking() {
   return (
@@ -12,22 +13,22 @@ function Hotelbooking() {
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
             </div>
-            <a className="back_button">
+            <Link className="back_button">
               {" "}
               <i className="fa fa-backward"></i> Back{" "}
-            </a>
+            </Link>
           </div>
 
           <div className="hotelbokkingdiv">
             <div className="pagination">
-              <a>1 /</a>
-              <a>2 /</a>
-              <a>3 /</a>
-              <a>4 /</a>
-              <a>5 /</a>
-              <a>1 /</a>
-              <a>Next / </a>
-              <a>Last</a>
+              <Link>1 /</Link>
+              <Link>2 /</Link>
+              <Link>3 /</Link>
+              <Link>4 /</Link>
+              <Link>5 /</Link>
+              <Link>1 /</Link>
+              <Link>Next / </Link>
+              <Link>Last</Link>
             </div>
 
             <div className="leftrightpanel">
@@ -41,10 +42,10 @@ function Hotelbooking() {
                       Your Search{" "}
                     </span>{" "}
                   </div>
-                  <a>
+                  <Link>
                     {" "}
                     <i className="fa fa-undo filter_headicon"></i>{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="refresh">
                   {" "}
@@ -154,24 +155,21 @@ function Hotelbooking() {
                   </ul>
                   <ul className="cardlist">
                     <li>
-                      <a
-                        href="./BookingVoucher.html"
-                        className="cmmonbtns print"
-                      >
-                        {" "}
+                     <Link className="cmmonbtns print">
+                        
                         <i className="mlr5 fa fa-print icon"></i> Voucher{" "}
-                      </a>{" "}
+                        </Link>
                     </li>
                     <li>
-                      <a href="./BookingVoucher.html" className="cmmonbtns">
-                        View Voucher
-                      </a>
+                    <Link className="cmmonbtns">View Voucher</Link>
+                    
+                      
                     </li>
                     <li>
-                      <a className="cmmonbtns">Request Cancel</a>
+                      <Link className="cmmonbtns">Request Cancel</Link>
                     </li>
                     <li>
-                      <a className="cmmonbtns">Open</a>
+                      <Link className="cmmonbtns">Open</Link>
                     </li>
                   </ul>
                 </div>
@@ -241,7 +239,7 @@ function Hotelbooking() {
                   </ul>
                   <ul className="cardlist">
                     <li>
-                      <a className="cmmonbtns">Open</a>
+                      <Link className="cmmonbtns">Open</Link>
                     </li>
                   </ul>
                 </div>

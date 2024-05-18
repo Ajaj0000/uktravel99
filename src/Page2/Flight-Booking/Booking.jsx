@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 
 function Booking() {
@@ -13,22 +14,22 @@ function Booking() {
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
             </div>
-            <a className="back_button">
+          <Link className="back_button">
               {" "}
               <i className="fa fa-backward"></i> Back{" "}
-            </a>
+              </Link>
           </div>
           
           <div className="flightbookingdiv">
             <div className="pagination">
-              <a>1 /</a>
-              <a>2 /</a>
-              <a>3 /</a>
-              <a>4 /</a>
-              <a>5 /</a>
-              <a>1 /</a>
-              <a>Next / </a>
-              <a>Last</a>
+              <Link>1 /</Link>
+              <Link>2 /</Link>
+              <Link>3 /</Link>
+              <Link>4 /</Link>
+              <Link>5 /</Link>
+              <Link>1 /</Link>
+              <Link>Next / </Link>
+              <Link>Last</Link>
             </div>
             <div className="leftrightpanel">
               <aside className="filterside">
@@ -41,10 +42,10 @@ function Booking() {
                       Search{" "}
                     </span>{" "}
                   </div>
-                  <a>
+                  <Link>
                     {" "}
                     <i className="fa fa-undo filter_headicon"></i>{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="refresh">
                   {" "}
@@ -96,7 +97,7 @@ function Booking() {
                       <div className="heading green">Released </div>
                       <small>Last Ticketing Date: 04 Nov 22 (02:00)</small>
                       <br />
-                      <a>Please Refer SSR</a>
+                      <Link>Please Refer SSR</Link>
                     </li>
                     <li>
                       <span className="title">USD 709.23</span>
@@ -137,9 +138,7 @@ function Booking() {
                   </ul>
                   <ul className="cardlist">
                     <li>
-                      <a href="./bookingdetail.html" className="cmmonbtns">
-                        Open
-                      </a>
+                      <Link  className="cmmonbtns">Open</Link>
                     </li>
                   </ul>
                 </div>
@@ -152,7 +151,7 @@ function Booking() {
                       <div className="heading hold">Hold </div>
                       <small>Last Ticketing Date: 04 Nov 22 (02:00)</small>
                       <br />
-                      <a>Please Refer SSR</a>
+                      <Link>Please Refer SSR</Link>
                     </li>
                     <li>
                       <span className="title">USD 709.23</span>
@@ -193,14 +192,12 @@ function Booking() {
                   </ul>
                   <ul className="cardlist">
                     <li>
-                      <a className="cmmonbtns">
+                      <Link className="cmmonbtns">
                         Release Seats
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="./bookingdetail.html" className="cmmonbtns">
-                        Open
-                      </a>
+                      <Link className="cmmonbtns">Open</Link>
                     </li>
                   </ul>
                 </div>

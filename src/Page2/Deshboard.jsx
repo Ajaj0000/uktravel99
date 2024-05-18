@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 function Deshbord() {
   return (
@@ -12,10 +13,10 @@ function Deshbord() {
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
             </div>
-            <a className="back_button">
+            <Link className="back_button">
               {" "}
               <i className="fa fa-backward"></i> Back{" "}
-            </a>
+            </Link>
           </div>
           <ul className="credit-limit">
             <li>
@@ -64,7 +65,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Last Month Bookings
                 </p>
-                <a>10</a>
+                <Link>10</Link>
               </div>
             </li>
             <li className="booking_info">
@@ -75,7 +76,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Today Bookings
                 </p>
-                <a>0</a>
+                <Link>0</Link>
               </div>
             </li>
             <li className="booking_info ">
@@ -86,7 +87,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Ticketed Bookings
                 </p>
-                <a>4</a>
+                <Link>4</Link>
               </div>
             </li>
             <li className="booking_info">
@@ -97,7 +98,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Queue Bookings
                 </p>
-                <a>28</a>
+                <Link>28</Link>
               </div>
             </li>
             <li className="booking_info ">
@@ -108,7 +109,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Cancelled Bookings
                 </p>
-                <a>2</a>
+                <Link>2</Link>
               </div>
             </li>
             <li className="booking_info ">
@@ -119,7 +120,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Total Paid Bookings
                 </p>
-                <a>3</a>
+                <Link>3</Link>
               </div>
             </li>
             <li className="booking_info ">
@@ -130,7 +131,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i> Total Unpaid Bookings{" "}
                 </p>
-                <a>31</a>
+                <Link>31</Link>
               </div>
             </li>
             <li className="booking_info ">
@@ -151,7 +152,7 @@ function Deshbord() {
                 <p>
                   <i className="fa fa-arrow-up"></i>Offline Bookings
                 </p>
-                <a>7</a>
+                <Link>7</Link>
               </div>
             </li>
           </ul>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 function Hotelcredit() {
   return (
@@ -12,22 +13,22 @@ function Hotelcredit() {
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
             </div>
-            <a className="back_button">
+            <Link className="back_button">
               {" "}
               <i className="fa fa-backward"></i> Back{" "}
-            </a>
+            </Link>
           </div>
 
           <div className="flightbookingdiv">
             <div className="pagination">
-              <a>1 /</a>
-              <a>2 /</a>
-              <a>3 /</a>
-              <a>4 /</a>
-              <a>5 /</a>
-              <a>1 /</a>
-              <a>Next / </a>
-              <a>Last</a>
+              <Link>1 /</Link>
+              <Link>2 /</Link>
+              <Link>3 /</Link>
+              <Link>4 /</Link>
+              <Link>5 /</Link>
+              <Link>1 /</Link>
+              <Link>Next / </Link>
+              <Link>Last</Link>
             </div>
 
             <div className="leftrightpanel">
@@ -41,10 +42,10 @@ function Hotelcredit() {
                       Your Search{" "}
                     </span>{" "}
                   </div>
-                  <a>
+                  <Link>
                     {" "}
                     <i className="fa fa-undo filter_headicon"></i>{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className="refresh">
                   {" "}
@@ -157,7 +158,7 @@ function Hotelcredit() {
                   </table>
                   <ul className="cardlist">
                     <li>
-                      <a className="cmmonbtns">View Credit Note</a>
+                      <Link className="cmmonbtns">View Credit Note</Link>
                     </li>
                   </ul>
                 </div>
@@ -221,7 +222,7 @@ function Hotelcredit() {
                   </table>
                   <ul className="cardlist">
                     <li>
-                      <a className="cmmonbtns">View Credit Note</a>
+                      <Link className="cmmonbtns">View Credit Note</Link>
                     </li>
                   </ul>
                 </div>

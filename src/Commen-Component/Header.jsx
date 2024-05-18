@@ -1,59 +1,59 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Header(){
-    return (
-        <>
+function Header() {
+  return (
+    <>
       <section className="header-top">
         <div className="container">
           <div className="left">
-            <a>
+            <Link>
               <img src="assets/images/common/fb.png" alt="" />
-            </a>
-            <a>
+            </Link>
+            <Link>
               <img src="assets/images/common/twitter.png" alt="" />
-            </a>
-            <a>
+            </Link>
+            <Link>
               <img src="assets/images/common/linkedin.png" alt="" />
-            </a>
-            <a className="email-info">
+            </Link>
+            <Link className="email-info">
               <img src="assets/images/common/email.png" alt="" />
               contact@uktraveltourism.com
-            </a>
+            </Link>
           </div>
           <div className="right">
-            <a className="call-info">
+            <Link className="call-info">
               <img src="assets/images/common/call.png" alt="" />
               +01 2345 6789
-            </a>
-            <Link to="/signup"><a href="./signup.html" className="regbtn">
-              Agents Registration
-            </a></Link>
-          </div>    
+            </Link>
+            <Link to="/signup" className="regbtn">
+                Agents Registration
+            </Link>
+          </div>
         </div>
       </section>
       <header className="header">
         <div className="container">
-          <a href="/" className="logo">
+         <Link className="logo">
             <img src="assets/images/common/logo.png" alt="" />
-          </a>
+            </Link>
           <ul className="menus">
             <li>
-             <Link to="/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-            <Link to="/feature">Features</Link>
+              <Link to="/feature">Features</Link>
             </li>
             <li>
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="./contactus">Contact Us</a>
+              <Link>Contect Us</Link>
             </li>
           </ul>
         </div>
       </header>
-        </>
-    )
+    </>
+  );
 }
-export {Header};
+export { Header };

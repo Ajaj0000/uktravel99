@@ -1,5 +1,6 @@
 import React from "react";
 import { Header2 } from "../../Commen-Component/Header2";
+import { Link } from "react-router-dom";
 
 function Viewnews() {
   return (
@@ -12,10 +13,10 @@ function Viewnews() {
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="text" placeholder="Name/PNR/Ticket no/Booking Ref" />
             </div>
-            <a className="back_button">
+            <Link className="back_button">
               {" "}
               <i className="fa fa-backward"></i> Back{" "}
-            </a>
+            </Link>
           </div>
 
           <div className="newsbox">

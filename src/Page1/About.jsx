@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../Commen-Component/Header";
 import { Footer } from "../Commen-Component/Footer";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -14,7 +15,8 @@ function About() {
           <div class="pagesHeading"> About Us</div>
           <ul class="breadcrumbs">
             <li>
-              <a href="/home/index">Home</a>
+              <Link to="/ /index">Home</Link>
+              
             </li>
             <li>About Us</li>
           </ul>
